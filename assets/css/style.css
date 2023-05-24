@@ -1,0 +1,41 @@
+/* MAIN ELEMENTS*/
+body{
+    background-color: rgb(101, 200, 200);
+}
+header{
+background-color: aqua;
+}
+/* flex end puts nav elements in the end but do not know how add space between them.  Justify-content may be used only once */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    /*justify-content: space-around;*/
+    align-items: center;
+    margin-right: 5%;
+}
+footer{
+    background-color: aqua;
+}
+aside{
+    background-color: darkgray;
+    border-right: solid black;
+}
+section{
+    background-color: darkorange;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+/* ID TAGS */
+/* cannot get name to be centered*/
+#name{
+    display: flex;
+    align-items: center;
+    
+}
+
+#subtitle{
+    background-color: blue;
+    color: white;
+}
+
