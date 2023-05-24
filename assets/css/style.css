@@ -13,18 +13,43 @@ nav{
     align-items: center;
     margin-right: 5%;
 }
-footer{
-    background-color: aqua;
+main{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 aside{
     background-color: darkgray;
-    border-right: solid black;
+    width: 29%;
+    height: 200px;
+    margin-top: 20px;
 }
 section{
-    background-color: darkorange;
-    padding-right: 10px;
-    margin-right: 20px;
+    border-left: solid black;55 
 }
+img{
+    width: 100px;
+    height: 100px;
+}
+footer{
+    background-color: aqua;
+}
+
+
+/* CLASSES */
+/* line height worked for the orange body only.  duh its a class not the main element*/
+.main{
+    background-color: darkorange;
+    width: 69%;
+    height: 200px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.projects{
+    display: flex;
+}
+
+
 
 /* ID TAGS */
 /* cannot get name to be centered*/
@@ -37,5 +62,8 @@ section{
 #subtitle{
     background-color: blue;
     color: white;
+    WIDTH: 100%;
+    height: 100px;
+    line-height: 20px;
 }
 
