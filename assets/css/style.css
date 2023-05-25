@@ -46,7 +46,8 @@ footer{
     line-height: 40px;
 }
 .projects{
-    display: flex;
+    display: inline-flexbox;
+    flex-wrap: wrap;
 }
 
 
@@ -65,5 +66,9 @@ footer{
     WIDTH: 100%;
     height: 100px;
     line-height: 20px;
+}
+#first-project{
+    width: 100%;
+    height: 50px;
 }
 
