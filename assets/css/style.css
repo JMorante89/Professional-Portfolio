@@ -1,17 +1,22 @@
 /* MAIN ELEMENTS*/
 body{
-    background-color: rgb(101, 200, 200);
+    background-color: gainsboro;
 }
 header{
-background-color: aqua;
+background-color: navy;
+color: white;
 }
 /* flex end puts nav elements in the end but do not know how add space between them.  Justify-content may be used only once */
 nav{
     display: flex;
     justify-content: flex-end;
+    color: white;
     /*justify-content: space-around;*/
     align-items: center;
     margin-right: 5%;
+}
+a{
+    color: white;
 }
 main{
     display: flex;
@@ -19,27 +24,29 @@ main{
 
 }
 aside{
-    background-color: darkgray;
+    background-color: gainsboro;
     width: 29%;
     height: 200px;
     margin-top: 20px;
+    border: 
 }
 section{
-    border-left: solid black;55 
+    border-left: solid orange 10px;
+    border-radius: 10px;
 }
 img{
     width: 100px;
     height: 100px;
 }
 footer{
-    background-color: aqua;
+    background-color: navy;
 }
 
 
 /* CLASSES */
 /* line height worked for the orange body only.  duh its a class not the main element*/
 .main{
-    background-color: darkorange;
+    background-color: gainsboro;
     width: 69%;
     height: 200px;
     margin-top: 20px;
@@ -57,7 +64,7 @@ footer{
 #name{
     display: flex;
     align-items: center;
-    
+    color: white;
 }
 
 #subtitle{
@@ -67,8 +74,5 @@ footer{
     height: 100px;
     line-height: 20px;
 }
-#first-project{
-    width: 100%;
-    height: 50px;
-}
+
 
