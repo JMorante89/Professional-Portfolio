@@ -1,67 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
   </head>
-  <body>
-    <header>
-      <h1 id="name">Daniel Morante</h1>
-      <nav>
-        <a href="#">About Me</a>
-        <a href="#">WORK</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
+<body>
+  <header>
+    <h1>Daniel Morante</h1>
+    <h2 id="professional">Professional Portfolio</h2>
+    <nav>
+        <ul>
+          <li><a class="nav" href="#about">About</a></li>
+          <li><a class="nav" href="#projects">Projects</a></li>
+          <li><a class="nav" href="#contact">Contact</a></li>
+        </ul>
       </nav>
-        <p id="subtitle">THIS IS THE SUBTITLE</p>
-    </header>
-    
-
-    <main>
-      <aside>
-        <h2>About Me</h2>
-        <div>
-          <img src="./assets/images/Daniel-photo.jpeg">
-        </div>
-      </aside>
-
-      <section class="main">
-        <p>
-          I am Peruvian gay man learning to code.  I have lived in the US most of my life
-          and love to eat food.  I have extensive work experience with a plethora of 
-          skills that now include software engineering.
-        </p>
-      </section>
-
-      <aside>
-        <h2>WORK</h2>
-      </aside>
-
-      <section class="main">
-        <div class="projects">
-          <div><img src="./assets/images/todo-app-photo.jpeg" id="first-project"></div>
-          <div><img src="./assets/images/front-end-website-coder.jpeg" id="second-project"></div>
-          <div><img src="./assets/images/quiz-app.jpeg" id="third-project"></div>
-          <div><img src="./assets/images/cloud-computing.jpeg" id="fourth-project"></div>
-          <div><img src="./assets/images/calculator-app.jpeg" id="fifth-project"></div>
-        </div>
-      </section>
-    </main>
-
-
-    <footer>
-      <h1 id="name">Contact Me</h1>
-      <nav>
-        <p>703.608.0918</p>
-        <p>JMorante89@GMail.com</p>
-      </nav>
-      <nav>
-        <a href="https://www.github.com/JMorante89" target="_blank"><img src="https://www.freeiconspng.com/uploads/github-logo-icon-3.png" width="350" alt="Github Logo Svg Free" /></a>
-        <a href="https://www.linkedin.com/in/josemorante888" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
-        <a href="https://www.instagram.com/inexorabletruth/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"></a>
-      </nav>
-    </footer>
-
-  </body>
+  </header>
+  
+  <section id="about">
+    <h2>About Me</h2>
+    <img id="about image" src="./assets/images/Daniel-photo.jpeg">
+    <p>As an aspiring software engineer, I am dedicated to honing my skills and knowledge in the field of technology. 
+      With a strong foundation in programming languages such as HTML, CSS and JavaScript; I am on a mission to 
+      become a skilled and proficient software engineer. I am deeply passionate about problem-solving and enjoy 
+      tackling complex challenges through innovative and efficient solutions. Through continuous learning and staying 
+      up-to-date with emerging technologies, I am committed to mastering various software development frameworks and 
+      tools. With a keen eye for detail and a collaborative mindset, I strive for excellence in designing and 
+      developing reliable and user-friendly software applications. I am excited to contribute to the dynamic and 
+      ever-evolving world of software engineering, leveraging my skills and creativity to create impactful and 
+      scalable solutions that enhance the lives of users worldwide.</p>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Website Developer</h3>
+      <img class="projects" src="./assets/images/front-end-website-coder.jpeg">
+    </div>
+    <div class="project">
+      <h3>Password Generator</h3>
+      <img class="projects" src="./assets/images/cloud-computing.jpeg">
+    </div>
+    <div class="project">
+      <h3>Calculator</h3>
+      <img class="projects" src="./assets/images/calculator-app.jpeg">
+    </div>
+    <div class="project">
+      <h3>Quiz App</h3>
+      <img class="projects" src="./assets/images/quiz-app.jpeg">
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p><b><span style="color:#ff8c00">Email: </span>JMorante89@GMail.com</b></p>
+    <p><b><span style="color:#ff8c00">Cell: </span>703.608.0918</p></b></p>
+    <nav>
+      <ul>
+        <li><a class="links" href="https://www.github.com/JMorante89" target="_blank"><img class="socials" src="https://www.freeiconspng.com/uploads/github-logo-icon-3.png" alt="Github Logo Svg Free" /></a></li>
+        <li><a class="links" href="https://www.linkedin.com/in/josemorante888" target="_blank"><img class="socials" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a></li>
+        <li><a class="links" href="https://www.instagram.com/inexorabletruth/" target="_blank"><img class="socials" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png"></a></li>
+      </ul>
+    </nav> 
+  </section>
+  
+  <footer>
+    <p><span style="color:#ff8c00">&copy; </span>2023 Professional Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
