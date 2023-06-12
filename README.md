@@ -17,6 +17,8 @@ The purpose of this project is to create an impressive online portfolio to showc
 - HTML: Used for structuring the content and elements of the website.
 - CSS: Used for styling and visual enhancements.
 
+<img src="./assets/images/website screenshot.html.png">
+
 ## Setup Instructions
 1. Clone the repository: `git clone <https://github.com/JMorante89/Professional-Portfolio.git>`
 2. Open the project folder in your preferred code editor.
